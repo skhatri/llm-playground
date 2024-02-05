@@ -37,5 +37,5 @@ python3 run.py
 ```
 The custom data is dropped into rag/openai/docs
 
-![RAG with OpenAI](rag.png)
+![RAG with OpenAI](assets/rag.png)
 
