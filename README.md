@@ -26,3 +26,16 @@ Examples can be run for few tiny LLMs here:
 |Phi-1.5b|```cd tiny-llm/phi-1.5 && pip install -r requirements.txt && python3 question.py && python3 ui.py```|
 |Tiny Llama|```cd tiny-llm/tiny-llama && pip install -r requirements.txt && python3 python3 question.py && python3 ui.py```|
 
+### RAG
+Retrieval Augmentation Generation using OpenAI endpoint
+You need to create OPENAI_API_KEY and PINECONE_API_KEY and make them available as environment variable for this exercise.
+
+```shell
+cd rag/openai
+pip install -r requirements.txt
+python3 run.py
+```
+The custom data is dropped into rag/openai/docs
+
+![RAG with OpenAI](rag.png)
+
