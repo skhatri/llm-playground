@@ -21,8 +21,8 @@ Examples can be run for few tiny LLMs here:
 
 |LLM|Run Instructions|
 |---|---|
-|Deep Seek - 1.3b parameters|```shell cd tiny-llm/deepseek <br> pip install -r requirements.txt <br> python3 run.py```|
-|H2O - Danube 1.8b|```shell cd tiny-llm/h2o <br> pip install -r requirements.txt <br> python3 run.py```|
-|Phi-1.5b|```shell cd tiny-llm/phi-1.5 <br> pip install -r requirements.txt <br> python3 question.py <br> python3 ui.py```|
-|Tiny Llama|```shell cd tiny-llm/tiny-llama <br> pip install -r requirements.txt <br> python3 python3 question.py <br> python3 ui.py```|
+|Deep Seek - 1.3b parameters|```cd tiny-llm/deepseek && pip install -r requirements.txt && python3 run.py```|
+|H2O - Danube 1.8b|```cd tiny-llm/h2o && pip install -r requirements.txt && python3 run.py```|
+|Phi-1.5b|```cd tiny-llm/phi-1.5 && pip install -r requirements.txt && python3 question.py && python3 ui.py```|
+|Tiny Llama|```cd tiny-llm/tiny-llama && pip install -r requirements.txt && python3 python3 question.py && python3 ui.py```|
 
