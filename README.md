@@ -39,3 +39,10 @@ The custom data is dropped into rag/openai/docs
 
 ![RAG with OpenAI](assets/rag.png)
 
+### Inference HTTP
+A basic curl command can be invoked against huggingface model inference endpoints to ask questions quickly.
+Some endpoints may need pro subscription
+
+```
+./inference/http.sh
+```
